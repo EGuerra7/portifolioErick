@@ -7,13 +7,13 @@
     <title>Erick Guerra</title>
 </head>
 <body>
-    <header class="cabecalho">
-        <h2 class="cabecalho-logo">Erick Guerra</h2>
-        <ul class="cabecalho-nav">
-            <li><a href="#">Sobre mim</a></li>
-            <li><a href="#">Skills</a></li>
-            <li><a href="#">Projetos</a></li>
-        </ul>
+    <header class="cabecalho" id="inicio">
+            <a href="#inicio" class="cabecalho-logo">Erick Guerra</a>
+            <ul class="cabecalho-nav">
+                <li><a href="#sobre">Sobre mim</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+            </ul>
     </header>
     <main class="container">
         <!--Inicio-->
@@ -30,12 +30,12 @@
             <img class="container-img" src="img/Erick.png" alt="um homem branco, de cabelo liso e escuro, barba e de roupas pretas">
         </section>
         <!--Sobre-->
-        <section class="container-sobre">
+        <section class="container-sobre" id="sobre">
             <h2>Sobre mim</h2>
             <p>Com apenas 19 anos, sou um jovem de Santa Maria de Itabira, MG, determinado a explorar o vasto universo da tecnologia. Como estudante de Engenharia de Software, meu interesse pelo desenvolvimento de front-end me levou a buscar conhecimento através de cursos online, como os oferecidos pela ALURA. Com um olhar curioso e determinado, estou pronto para explorar as oportunidades que o mundo digital oferece.</p>
         </section>
         <!--Skills-->
-        <section class="container-skills">
+        <section class="container-skills" id="skills">
             <h2>Skills</h2>
             <div>
                 <ul class="container-skills-lista">
@@ -46,7 +46,7 @@
             </div>
         </section>
         <!--Projetos-->
-        <section class="container-projetos">
+        <section class="container-projetos" id="projetos">
             <h2>Projetos</h2>
             <ul class="container-projetos-lista">
                 <li class="container-projetos-link">
@@ -76,8 +76,11 @@
             </ul>
         </section>
         
+            <a href="#inicio" class="botaoUp"><img src="img/seta.png"></a>
+    
         
     </main>
     
+    <script src="script.js"></script>
 </body>
 </html>
