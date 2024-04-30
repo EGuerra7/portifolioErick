@@ -248,3 +248,47 @@ body{
 .botaoUp:hover{
     box-shadow: 0 0 5px var(--cor-secundaria);
 }
+@media screen and (max-width:1000px){
+    /*Inicio*/
+    .container-inicio{
+        flex-direction: column;
+        padding: 2em;
+        align-items: center;
+    }
+    .container-texto{
+        justify-content: center;
+        align-items: center;
+    }
+    .container-botoes{
+        gap: 2em;
+    }
+    .container-img{
+        width: 225px;
+        margin-top: 1em;
+    }
+    /*sobre*/
+    .container-sobre p{
+        margin: 0 5px;
+    }
+    /*Skills*/
+    .container-skills-lista{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    /*Projetos*/
+    .container-projetos{
+        padding: 0.5em 5px;
+        text-align: center;
+    }
+    .container-projetos-lista{
+        text-align: center;
+    }
+    .container-projetos-link a img{
+        width: 320px;
+    }
+    .projetos-botao{
+        width: 70px;
+        padding: 0.6em 3.6em;
+    }
+}
