@@ -1,4 +1,4 @@
-const menuLinks = document.querySelectorAll('.cabecalho-nav a[href^="#"]');
+const menuLinks = document.querySelectorAll('a[href^="#"]');
 
 function getDistanceFromTheTop(element) {
   const id = element.getAttribute("href");
