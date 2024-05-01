@@ -201,6 +201,11 @@ body{
     flex-direction: column;
     gap: 4em;
 }
+.centralizar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .container-projetos-link{
     list-style: none;
     display: flex;
@@ -213,11 +218,6 @@ body{
     align-items: center;
     justify-content: center;
     text-align: center;
-}
-.link-img{
-    width: 320px;
-    position: relative;
-    margin: 0 26%;
 }
 .container-projetos-link a img{
     border-radius: 37px;
@@ -318,6 +318,7 @@ body{
     }
     .container-projetos-link a img{
         width: 320px;
+        margin: 0;
     }
     .projetos-botao{
         width: 70px;
