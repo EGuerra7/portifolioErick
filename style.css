@@ -189,6 +189,7 @@ body{
     flex-direction: column;
     padding: 0.5em 12em;
     gap: 4em;
+    margin-bottom: 8em;
 }
 .container-projetos h2{
     font-size: 29px;
