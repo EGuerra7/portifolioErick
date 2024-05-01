@@ -206,10 +206,17 @@ body{
     flex-direction: column;
     gap: 1.5em;
 }
-.organizacao-botao, .container-projetos-link a{
+
+.organizacao-botao{
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
+}
+.link-img{
+    width: 320px;
+    position: relative;
+    margin: 0 26%;
 }
 .container-projetos-link a img{
     border-radius: 37px;
@@ -317,5 +324,9 @@ body{
     }
     .botaoUp{
         width: 16px;
+    }
+    .link-img{
+        width: 320px;
+        margin: 0 29%;
     }
 }
