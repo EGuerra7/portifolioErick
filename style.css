@@ -158,7 +158,12 @@ body{
 }
 .container-skills-lista{
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    gap: 15%;
+}
+.container-skills-lista-linha{
+    display: flex;justify-content: center;
     gap: 19%;
 }
 .container-skills-item{
@@ -171,7 +176,7 @@ body{
     transition: .4s;
 }
 .container-skills-item:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
     box-shadow: 0px 0px 15px var(--cor-principal);
 }
 .container-skills-item img{
@@ -199,25 +204,19 @@ body{
     text-align: left;
     display: flex;
     flex-direction: column;
-    gap: 4em;
+    gap: 9em;
 }
 .centralizar{
     display: flex;
     align-items: center;
+    margin-top: 10px;
     justify-content: center;
 }
 .container-projetos-link{
     list-style: none;
     display: flex;
     flex-direction: column;
-    gap: 1.5em;
-}
-
-.organizacao-botao{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    gap: 2em;
 }
 .container-projetos-link a img{
     border-radius: 37px;
@@ -232,14 +231,25 @@ body{
 .projetos-texto{
     font-size: 22px;
 }
+.projetos-texto-obs{
+    display: flex;
+    justify-content: space-between;
+}
+
+.organizacao-botao{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
 .projetos-botao{
     background-color: #1B2430;
     padding: 0.8em 4em;
-    width: 120px;
+    width: 150px;
     border-radius: 20px;
     color: var(--cor-secundaria);
     text-decoration: none;
-    font-size: 24px;
+    font-size: 20px;
     transition: .4s;
 }
 .projetos-botao:hover{

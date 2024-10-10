@@ -20,7 +20,7 @@
         <section class="container-inicio">
         <div class="container-texto">
             <h1 class="container-texto-titulo">Erick <b>Guerra</b></h1>
-            <h2 class="container-sub">Desenvolvedor Front-End</h2>
+            <h2 class="container-sub">Desenvolvedor</h2>
             <div class="container-botoes">
                 <a href="https://github.com/EGuerra7" class="container-botoes-link" target="_blank"><img src="img/git.png" alt="imagem git"></a>
                 <a href="https://www.instagram.com/erick_muzzi7/tagged/" class="container-botoes-link" target="_blank"><img src="img/insta.png" alt="imagem instagram"></a>
@@ -32,16 +32,23 @@
         <!--Sobre-->
         <section class="container-sobre" id="sobre">
             <h2>Sobre mim</h2>
-            <p>Com apenas 19 anos, sou um jovem de Santa Maria de Itabira, MG, determinado a explorar o vasto universo da tecnologia. Como estudante de Engenharia de Software, meu interesse pelo desenvolvimento de front-end me levou a buscar conhecimento através de cursos online, como os oferecidos pela ALURA. Com um olhar curioso e determinado, estou pronto para explorar as oportunidades que o mundo digital oferece.</p>
+            <p>Com apenas 19 anos, sou um jovem de Santa Maria de Itabira, MG, determinado a explorar o vasto universo da tecnologia. Como estudante de Engenharia de Software, meu interesse pelo desenvolvimento me levou a buscar conhecimento através de cursos online, como os oferecidos pela ALURA. Com um olhar curioso e determinado, estou pronto para explorar as oportunidades que o mundo digital oferece.</p>
         </section>
         <!--Skills-->
         <section class="container-skills" id="skills">
             <h2>Skills</h2>
             <div>
                 <ul class="container-skills-lista">
-                    <li class="container-skills-item">HTML <img src="img/Html.png"></li>
-                    <li class="container-skills-item">CSS <img src="img/CSS.png"></li>
-                    <li class="container-skills-item">JavaScript <img class="img-torta" src="img/js.png"></li>
+                    <div class="container-skills-lista-linha">
+                        <li class="container-skills-item">Java Spring<img class="img-torta" src="img/Java.png"></li>
+                        <li class="container-skills-item">Angular<img class="img-torta" src="img/Angular.png"></li>
+                        <li class="container-skills-item">TypeScript<img class="img-torta" src="img/Type.png"></li> 
+                    </div>
+                    <div class="container-skills-lista-linha">
+                        <li class="container-skills-item">HTML<img src="img/Html.png"></li>
+                        <li class="container-skills-item">CSS<img src="img/CSS.png"></li>
+                        <li class="container-skills-item">JavaScript<img class="img-torta" src="img/js.png"></li>
+                    </div>
                 </ul>
             </div>
         </section>
@@ -50,33 +57,48 @@
             <h2>Projetos</h2>
             <ul class="container-projetos-lista">
                 <li class="container-projetos-link">
-                    <h3 class="projetos-titulo">To Do List</h3>
-                    <p class="projetos-texto">Feito com HTML, CSS e JavaScript.</p>
+                    <h3 class="projetos-titulo">Ponto Eletrônico</h3>
+                    <p class="projetos-texto">Desenvolvido com Java Spring e Angular, o sistema integra um ESP32 para capturar o UID dos cartões e enviá-lo para a API, sendo criado especificamente para a empresa Fundação Francisco de Assis, onde atuo atualmente.
+                        O sistema conta com um eficiente mecanismo de login, diferenciando permissões entre Administradores e Funcionários. Além disso, oferece funcionalidades completas de CRUD para o cadastro de usuários, bem como para a abertura e fechamento de ponto.
+                    </p>
+                    <div class="projetos-texto-obs">
+                        <p class="projetos-texto">Administrador:<br>
+                            email: administrador@ponto.com<br>
+                            senha: 1234
+                        </p>
+                        <p class="projetos-texto">
+                            Funcionário:<br>
+                            email: funcionario@ponto.com<br>
+                            senha: 1234
+                        </p>
+                    </div>
                     <div class="centralizar">
-                        <a href="https://to-do-list-eg.vercel.app" target="_blank"><img src="img/to-do.png" alt="imagem de exemplo sobre o projeto to-do-list"></a>
+                        <a href="" target="_blank"><img src="img/Ponto.png" alt="imagem de exemplo sobre o projeto Ponto Eletrônico"></a>
                     </div>
                     <div class="organizacao-botao">
-                        <a class="projetos-botao" href="https://github.com/EGuerra7/to-do-list" target="_blank">GitHub</a>
+                        <a class="projetos-botao" href="https://github.com/EGuerra7/to-do-list" target="_blank">GitHub Front</a>
+                        <a class="projetos-botao" href="https://github.com/EGuerra7/to-do-list" target="_blank">GitHub Back</a>
                     </div>
                 </li>
                 <li class="container-projetos-link">
-                    <h3 class="projetos-titulo">AluraBooks</h3>
-                    <p class="projetos-texto">Feito com HTML, CSS.</p>
+                    <h3 class="projetos-titulo">Consumo Combústivel</h3>
+                    <p class="projetos-texto">Desenvolvido com Java Spring e Angular, o sistema monitora o consumo de combustível, gerando relatórios detalhados por período para cada automóvel.</p>
                     <div class="centralizar">
-                        <a href="https://alura-books-by-erick.vercel.app" target="_blank"><img src="img/alura.png" alt="imagem de exemplo sobre o projeto AluraBooks"></a>
+                        <a href="" target="_blank"><img src="img/alura.png" alt="imagem de exemplo sobre o projeto Consumo Combustível"></a>
                     </div>
                     <div class="organizacao-botao">
-                        <a class="projetos-botao" href="https://github.com/EGuerra7/AluraBooks-By-Erick" target="_blank">GitHub</a>
+                        <a class="projetos-botao" href="https://github.com/EGuerra7/AluraBooks-By-Erick" target="_blank">GitHub Front</a>
+                        <a class="projetos-botao" href="https://github.com/EGuerra7/AluraBooks-By-Erick" target="_blank">GitHub Back</a>
                     </div>
                 </li>
                 <li class="container-projetos-link">
-                    <h3 class="projetos-titulo">Jogo do número secreto (Alura)</h3>
-                    <p class="projetos-texto">Feito com HTML, CSS e JavaScript.</p>
+                    <h3 class="projetos-titulo">Luminous Studio</h3>
+                    <p class="projetos-texto">Desenvolvido com Angular, uma landing page simples e bonita!</p>
                     <div class="centralizar">
-                        <a href="https://jogo-do-numero-secreto-jade-eight.vercel.app/" target="_blank"><img src="img/secreto.png" alt="imagem de exemplo sobre o projeto 'Número Secreto'"></a>
+                        <a href="https://luminous-studio-vjgb.vercel.app/" target="_blank"><img src="img/Luminous.png" alt="imagem de exemplo sobre o projeto Luminous"></a>
                     </div>
                     <div class="organizacao-botao">
-                        <a class="projetos-botao" href="https://github.com/EGuerra7/Jogo-do-numero-secreto" target="_blank">GitHub</a>
+                        <a class="projetos-botao" href="https://github.com/EGuerra7/LuminousStudio" target="_blank">GitHub</a>
                     </div>
                 </li>
             </ul>
@@ -84,7 +106,6 @@
         
             <a href="#inicio" class="botaoUp"><img src="img/seta.png"></a>
     
-        
     </main>
     
     <script src="script.js"></script>
